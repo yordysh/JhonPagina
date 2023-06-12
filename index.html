@@ -1,21 +1,90 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <div class="wprmenu_bar" id="wprmenu_bar">
-      <div class="wprmenu_inner">
-        <div class="wprmenu_icon">
-          <span class="wprmenu_ic_1"></span>
-          <span class="wprmenu_ic_2"></span>
-          <span class="wprmenu_ic_3"></span>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ 
+<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="assets/css/style.css">
+  <title>Ferretería XYZ</title>
+</head>
+<body>
+  <header>
+    <h1>Ferretería XYZ</h1>
+    <section>
+      <div class="container">
+        <div class="row align-items-start">
+          <div class="col">
+        <div class="ubicacion">
+          <span>  <i class="fa-solid fa-location-dot"></i></span>
+        
+          <span><p>Jr.pacasmayo</p></span>
         </div>
-        <div class="menu_title">MENU</div>
+          </div>
+          <div class="col">
+            <div class="search-container">
+              <span><i class="fa-regular fa-magnifying-glass"></i></span>
+              <input type="text" id="search-input" placeholder="Buscar">
+              
+            </div>
+            
+          </div>
+          <div class="col">
+          <span><i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-whatsapp"></i></span>
+          </div>
+        </div>
       </div>
+
+    </section>
+    <section>
+      <nav>
+        <ul>
+          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Productos</a></li>
+          <li><a href="#">Servicios</a></li>
+          <li><a href="#">Contacto</a></li>
+        </ul>
+      </nav>
+    </section>
+  
+  </header>
+
+  <section id="banner">
+    <h2>Bienvenidos a Ferretería XYZ</h2>
+    <p>Tu solución en herramientas y materiales de construcción</p>
+  </section>
+
+  <section id="productos">
+    <h2>Nuestros Productos</h2>
+    <div class="producto">
+      <img src="imagen-producto1.jpg" alt="Producto 1">
+      <h3>Producto 1</h3>
+      <p>Descripción del producto 1</p>
     </div>
-  </body>
+    <div class="producto">
+      <img src="imagen-producto2.jpg" alt="Producto 2">
+      <h3>Producto 2</h3>
+      <p>Descripción del producto 2</p>
+    </div>
+    <!-- Agrega más productos aquí -->
+  </section>
+
+  <section id="servicios">
+    <h2>Nuestros Servicios</h2>
+    <ul>
+      <li>Servicio 1</li>
+      <li>Servicio 2</li>
+      <li>Servicio 3</li>
+      <!-- Agrega más servicios aquí -->
+    </ul>
+  </section>
+
+  <footer>
+    <p>Todos los derechos reservados &copy; Ferretería XYZ</p>
+  </footer>
+  <script src="https://kit.fontawesome.com/690ead074f.js" crossorigin="anonymous"></script>
+</body>
 </html>
